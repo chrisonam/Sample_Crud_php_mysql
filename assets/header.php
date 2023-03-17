@@ -7,4 +7,4 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Sample Crud App</title>
 </head>
-<body>
+<body class="bg-gray-200">
