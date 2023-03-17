@@ -24,44 +24,34 @@
     }
  }
 
-
-
+ include "../assets/header.php";
 ?>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 
-
-   <div>
-     <h1> Create new user</h1>
-   </div>
+   <div class="my-6 mx-auto w-2/6 ">
+     <h1 class="my-6 text-center text-4xl"> Sample Crud - Create </h1>
+   
+     <div class="w-full bg-white p-4 text-justify border-black border ">
    <form action="" method="post">
-    <label for="firstname">First Name:</label>
-    <input type="text" name="firstname" placeholder="First name" require>
-    <label for="lastname">Last Name:</label>
-    <input type="text" name="lastname" placeholder="Last name" require> <br>
-    <label for="email">E-mail:</label>
-    <input type="email" name="email" id="email" require>
+    <label for="firstname">First Name</label>
+    <input class=" border border-gray-700 w-2/3 rounded-full p-2 m-2" type="text" name="firstname" placeholder="First name" require>
     <br>
+    <label for="lastname">Last Name </label>
+    <input class=" border border-gray-700 w-2/3 rounded-full p-2 m-2" type="text" name="lastname" placeholder="Last name" require> <br>
+    <label for="email">E-mail          </label>
+    <input class=" border border-gray-700 w-2/3 rounded-full p-2 m-2" type="email" name="email" id="email" require>
+    <br> <br>
     <label> Gender : </label>
      <label for="male">Male</label>
      <input type="radio" name="gender" id="male" value="male">
-
      <label for="female">Female</label>
      <input type="radio" name="gender" id="female" value="female"><br>
-     
-     <button type="submit" name="submit"> Submit</button>
-     <a href="../index.php"> Cancel </a>
+     <br>
+     <button class="rounded-lg bg-cyan-700 m-2 w-32 p-3 text-white"type="submit" name="submit"> Submit</button>
+     <a class="rounded-lg bg-red-700 m-2 w-32 p-3 text-white" href="../index.php"> Cancel </a>
 
    </form>
-    
-</body>
-</html>
+   </div>
+
+   </div>
